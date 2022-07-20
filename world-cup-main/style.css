@@ -11,6 +11,17 @@ body {
     margin-bottom: 130px;
 }
 
+.containers2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 130px;
+}
+
+.containers2 img {
+    width: 312px;
+    height: 175px;
+}
+
 .container {
     display: flex;
     background-color: #161616;
@@ -80,6 +91,20 @@ p {
     padding-left: 24px;
 }
 
+.side-div-21 {
+    width: 312px;
+    height: 320px;
+    border-radius: 5px;
+    margin-right: 24px;
+    margin-bottom: 10px;
+    border: 1px solid gray;
+    box-shadow: 5px gray;
+}
+
+.side-div-211 {
+    padding-left: 10px;
+}
+
 .symbol {
     display: flex;
     column-gap: 30px;
@@ -91,4 +116,39 @@ p {
     height: 175px;
     border-radius: 10px 10px 0px 0px;
     margin-bottom: 20px;
+}
+
+.section-bg {
+    background-color: #161616;
+    padding-bottom: 130px;
+    color: white;
+    width: 100%;
+    height: 444px;
+}
+
+hr {
+    width: 80%;
+    color: #FFFFFF;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+
+}
+
+.footerr {
+    font-weight: 600;
+    font-size: 40px;
+    padding-top: 130px;
+    padding-bottom: 50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerr2 {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    margin-left: 15%;
+    padding-top: 50px;
+
+
 }
